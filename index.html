@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Testing...</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+              integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+              crossorigin="anonymous">
+        <style>
+          .nav {
+            padding: 10px 40px 10px;
+          }
+          .jumbotron {
+            padding: 30px 40px 30px;
+            position: relative;
+            background-image: url("bamboo1.jpg");
+            color: white;
+          }
+
+        </style>
     </head>
-    <div class="topnav">
-        <a class="active" href="home">Home</a>
-        <a href="news">News</a>
-        <a href="contact">Contact</a>
-        <a href="about">About</a>
-    </div>
     <body>
-        <div>This will be a webpage!</div>
+        <ul class="nav nav-pills">
+          <li role="presentation" class="active"><a href"#">Home</a></li>
+          <li role="presentation"><a href"#">News</a></li>
+          <li role="presentation"><a href"#">About</a></li>
+          <li role="presentation"><a href"#">Contact</a></li>
+        </ul>
+        <div class="jumbotron">
+          <h1>Welcome to my bamboo forest.</h1>
+          <p>It's like a prison, but natural.</p>
+          <p><a class="btn btn-primary btn-lg" href="#" role="button">Join me</a>
+          </p>
+        </div>
     </body>
 </html>
